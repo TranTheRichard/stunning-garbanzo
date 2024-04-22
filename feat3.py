@@ -1,7 +1,7 @@
 import streamlit as st
 from audio_recorder_streamlit import audio_recorder
 from openai import OpenAI
-homie=OpenAI(api_key="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")
+homie=OpenAI(api_key="")
 
 page_bg_img = '''
 <style>

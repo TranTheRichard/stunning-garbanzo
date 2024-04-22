@@ -11,7 +11,7 @@ background-size: cover;
 '''
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-homie = OpenAI(api_key="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")
+homie = OpenAI(api_key="")
 def get_completion(prompt, model="gpt-3.5-turbo"):
     completion = homie.chat.completions.create(
         model=model,
